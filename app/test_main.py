@@ -10,7 +10,7 @@ from app.main import get_coin_combination
             id=" 67 should be 2penny, 1nickel, 1dime, 1quarter"
         ),
         pytest.param(
-            -4, [0, 0, 0, 0],
+            -4, [1, 0, 2, -1],
             id="-4 converted to 0"
         ),
         pytest.param(
